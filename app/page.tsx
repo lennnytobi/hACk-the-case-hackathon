@@ -111,8 +111,8 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
               { title: '50+ participants', subtitle: 'Connect with fellow students from Munich. Open to all backgrounds — no coding required (nice to have). Come curious, leave connected.' },
-              { title: '2 exciting real business cases', subtitle: 'Tackle challenges from Celonis and Oliver Wyman that combine consulting with tech. Build solutions with guidance from expert mentors.' },
-              { title: 'Full‑day of learning, building & exchange', subtitle: 'A fun, hands‑on day to ideate, prototype and share. Get support from industry professionals and student initiatives while you network.' },
+              { title: '2 exciting real business cases', subtitle: 'Tackle real world challenges that combine consulting with tech. Build solutions with guidance from expert mentors and fellow students.' },
+              { title: 'Full‑day of building & exchange', subtitle: 'A fun, hands‑on day to ideate, prototype and share. Get support from industry professionals and student initiatives while you network.' },
             ].map((item) => (
               <motion.div 
                 key={item.title} 
@@ -138,21 +138,21 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 items-stretch max-w-4xl mx-auto">
             <motion.div 
-              className="bg-white/15 backdrop-blur rounded-2xl p-8 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] h-40 flex items-center justify-center hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300"
+              className="bg-white/25 backdrop-blur rounded-2xl p-8 border border-white/40 shadow-[0_10px_40px_rgba(255,255,255,0.25)] h-40 flex items-center justify-center hover:bg-white/30 hover:shadow-[0_8px_32px_rgba(255,255,255,0.35)] transition-all duration-300"
               whileHover={{ scale: 1.01 }}
               whileTap={{ scale: 0.99 }}
             >
               <img src="./Celonis_Full_Logo_Black_png.webp" alt="Celonis" className="h-24 md:h-28 object-contain max-h-full" />
             </motion.div>
             <motion.div 
-              className="bg-white/15 backdrop-blur rounded-2xl p-8 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] h-40 flex items-center justify-center hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300"
+              className="bg-white/25 backdrop-blur rounded-2xl p-8 border border-white/40 shadow-[0_10px_40px_rgba(255,255,255,0.25)] h-40 flex items-center justify-center hover:bg-white/30 hover:shadow-[0_8px_32px_rgba(255,255,255,0.35)] transition-all duration-300"
               whileHover={{ scale: 1.01 }}
               whileTap={{ scale: 0.99 }}
             >
               <img src="./Accenture.png" alt="Accenture" className="h-16 md:h-20 object-contain max-h-full" />
             </motion.div>
             <motion.div 
-              className="bg-white/15 backdrop-blur rounded-2xl p-8 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] h-40 flex items-center justify-center hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300"
+              className="bg-white/25 backdrop-blur rounded-2xl p-8 border border-white/40 shadow-[0_10px_40px_rgba(255,255,255,0.25)] h-40 flex items-center justify-center hover:bg-white/30 hover:shadow-[0_8px_32px_rgba(255,255,255,0.35)] transition-all duration-300"
               whileHover={{ scale: 1.01 }}
               whileTap={{ scale: 0.99 }}
             >
