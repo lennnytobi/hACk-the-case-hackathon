@@ -15,7 +15,7 @@ export default function Home() {
       <nav className="fixed top-0 w-full z-50 bg-hack-black/80 backdrop-blur-sm">
         <div className="container mx-auto px-6 py-4 flex items-center">
           <div className="flex items-center gap-4">
-            <img src="/academy-consult-logo.png" alt="Academy Consult" className="h-8 w-auto" />
+            <img src="./academy-consult-logo.png" alt="Academy Consult" className="h-8 w-auto" />
             <div className="text-2xl font-black">
             h<span className="text-hack-red">AC</span>k the case
           </div>
@@ -142,21 +142,21 @@ export default function Home() {
               whileHover={{ scale: 1.01 }}
               whileTap={{ scale: 0.99 }}
             >
-              <img src="/Celonis_Full_Logo_Black_png.webp" alt="Celonis" className="h-24 md:h-28 object-contain max-h-full" />
+              <img src="./Celonis_Full_Logo_Black_png.webp" alt="Celonis" className="h-24 md:h-28 object-contain max-h-full" />
             </motion.div>
             <motion.div 
               className="bg-white/15 backdrop-blur rounded-2xl p-8 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] h-40 flex items-center justify-center hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300"
               whileHover={{ scale: 1.01 }}
               whileTap={{ scale: 0.99 }}
             >
-              <img src="/Accenture.png" alt="Accenture" className="h-16 md:h-20 object-contain max-h-full" />
+              <img src="./Accenture.png" alt="Accenture" className="h-16 md:h-20 object-contain max-h-full" />
             </motion.div>
             <motion.div 
               className="bg-white/15 backdrop-blur rounded-2xl p-8 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] h-40 flex items-center justify-center hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300"
               whileHover={{ scale: 1.01 }}
               whileTap={{ scale: 0.99 }}
             >
-              <img src="/lovable-logo.png" alt="Lovable" className="h-16 md:h-20 object-contain max-h-full" />
+              <img src="./lovable-logo.png" alt="Lovable" className="h-16 md:h-20 object-contain max-h-full" />
             </motion.div>
           </div>
         </div>
@@ -175,9 +175,9 @@ export default function Home() {
             {[
               { time: '10:00', title: 'Welcome, Briefing and Kickoff', desc: 'Check-In, building teams and getting to know the people as well as the cases' },
               { time: '11:30', title: 'Hack the Case I', desc: 'Start working on the case with your team' },
-              { time: '14:30', title: 'Keynote from Celonis', desc: 'What does Celonis do?', keynote: true, logo: '/Celonis_Full_Logo_Black_png.webp' },
+              { time: '14:30', title: 'Keynote from Celonis', desc: 'What does Celonis do?', keynote: true, logo: './Celonis_Full_Logo_Black_png.webp' },
               { time: '14:45', title: 'Hack the Case II and prepare your pitch', desc: 'Continue building your solution and create a short slide deck' },
-              { time: '19:15', title: 'Keynote from Celonis', desc: 'What does Celonis do?', keynote: true, logo: '/Celonis_Full_Logo_Black_png.webp' },
+              { time: '19:15', title: 'Keynote from Celonis', desc: 'What does Celonis do?', keynote: true, logo: './Celonis_Full_Logo_Black_png.webp' },
               { time: '19:30', title: 'Final Pitches and Prizes', desc: 'Present to the jury, winners announced' },
               { time: '21:00', title: 'Connecting, Snacks and Celebration', desc: 'Networking and celebration' },
             ].map((e) => (
@@ -337,21 +337,21 @@ export default function Home() {
             >
               <h3 className="text-2xl font-semibold text-white mb-6">Partner Companies</h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 items-center">
-                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="/bain-logo.png" alt="Bain" className="h-8 object-contain" /></motion.div>
-                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="/simon-kucher-logo.png" alt="Simon-Kucher" className="h-8 object-contain" /></motion.div>
-                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="/Celonis_Full_Logo_Black_png.webp" alt="Celonis" className="h-8 object-contain" /></motion.div>
-                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="/deloitte-logo.png" alt="Deloitte" className="h-8 object-contain" /></motion.div>
-                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="/pwc-logo.png" alt="PwC" className="h-7 object-contain" /></motion.div>
-                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="/capgemini-logo.png" alt="Capgemini" className="h-7 object-contain" /></motion.div>
-                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="/eversheds-sutherland-logo.png" alt="Eversheds Sutherland" className="h-7 object-contain" /></motion.div>
-                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="/oliver-wyman-logo.png" alt="Oliver Wyman" className="h-8 object-contain" /></motion.div>
-                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="/rsm-logo.png" alt="RSM" className="h-8 object-contain" /></motion.div>
+                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="./bain-logo.png" alt="Bain" className="h-8 object-contain" /></motion.div>
+                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="./simon-kucher-logo.png" alt="Simon-Kucher" className="h-8 object-contain" /></motion.div>
+                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="./Celonis_Full_Logo_Black_png.webp" alt="Celonis" className="h-8 object-contain" /></motion.div>
+                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="./deloitte-logo.png" alt="Deloitte" className="h-8 object-contain" /></motion.div>
+                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="./pwc-logo.png" alt="PwC" className="h-7 object-contain" /></motion.div>
+                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="./capgemini-logo.png" alt="Capgemini" className="h-7 object-contain" /></motion.div>
+                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="./eversheds-sutherland-logo.png" alt="Eversheds Sutherland" className="h-7 object-contain" /></motion.div>
+                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="./oliver-wyman-logo.png" alt="Oliver Wyman" className="h-8 object-contain" /></motion.div>
+                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="./rsm-logo.png" alt="RSM" className="h-8 object-contain" /></motion.div>
               </div>
               <h3 className="text-2xl font-semibold text-white mt-10 mb-6">Competence Partner</h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 items-center">
-                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="/mckinsey-logo.png" alt="McKinsey & Company" className="h-9 object-contain" /></motion.div>
-                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="/bcg-logo.png" alt="BCG" className="h-9 object-contain" /></motion.div>
-                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="/systemiq-logo.png" alt="Systemiq" className="h-8 object-contain" /></motion.div>
+                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="./mckinsey-logo.png" alt="McKinsey & Company" className="h-9 object-contain" /></motion.div>
+                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="./bcg-logo.png" alt="BCG" className="h-9 object-contain" /></motion.div>
+                <motion.div whileHover={{ scale: 1.01 }} className="bg-white/15 backdrop-blur rounded-2xl p-4 border border-white/25 shadow-[0_10px_40px_rgba(255,255,255,0.16)] hover:bg-white/20 hover:shadow-[0_8px_32px_rgba(255,255,255,0.22)] transition-all duration-300 flex items-center justify-center h-20"><img src="./systemiq-logo.png" alt="Systemiq" className="h-8 object-contain" /></motion.div>
               </div>
             </motion.div>
           </div>
@@ -363,7 +363,7 @@ export default function Home() {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-4">
-              <img src="/academy-consult-logo.png" alt="Academy Consult" className="h-8 w-auto opacity-90" />
+              <img src="./academy-consult-logo.png" alt="Academy Consult" className="h-8 w-auto opacity-90" />
               <div className="text-white/60 text-sm">
                 © 2025 Academy Consult München e.V.
               </div>
