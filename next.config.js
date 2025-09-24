@@ -7,7 +7,11 @@ const nextConfig = {
   },
   assetPrefix: '',
   basePath: '',
-  distDir: 'out'
+  distDir: 'out',
+  // Optimize for static export
+  generateBuildId: async () => {
+    return 'static-build'
+  }
 }
 
 module.exports = nextConfig

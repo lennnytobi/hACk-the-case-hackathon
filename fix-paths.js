@@ -24,6 +24,11 @@ function fixPathsInFile(filePath) {
 
 // Function to recursively find and fix all HTML files
 function fixAllHtmlFiles(dir) {
+  if (!fs.existsSync(dir)) {
+    console.log(`Directory ${dir} does not exist, skipping...`);
+    return;
+  }
+  
   const files = fs.readdirSync(dir);
   
   files.forEach(file => {
@@ -38,7 +43,19 @@ function fixAllHtmlFiles(dir) {
   });
 }
 
-// Fix paths in the out directory
+// Create .nojekyll file for GitHub Pages
+function createNoJekyllFile() {
+  const noJekyllPath = path.join('./out', '.nojekyll');
+  try {
+    fs.writeFileSync(noJekyllPath, '');
+    console.log('Created .nojekyll file for GitHub Pages');
+  } catch (error) {
+    console.error('Error creating .nojekyll file:', error.message);
+  }
+}
+
+// Main execution
 console.log('Fixing absolute paths in static export...');
 fixAllHtmlFiles('./out');
+createNoJekyllFile();
 console.log('Path fixing complete!');
