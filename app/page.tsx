@@ -29,13 +29,16 @@ export default function Home() {
             <a href="#faq" className="hover:text-hack-red transition-colors">FAQ</a>
             <a href="#organizers" className="hover:text-hack-red transition-colors">Organisers</a>
           </div>
-            <motion.button
+            <motion.a
+              href="https://lu.ma/hackthecase2025"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.06 }}
               whileTap={{ scale: 0.95 }}
               className="px-6 py-2 rounded-full border text-white bg-hack-red/30 border-hack-red/50 transition-all duration-300 hover:bg-hack-red/60 hover:shadow-[0_20px_80px_rgba(163,73,73,0.6)] hover:-translate-y-0.5"
             >
             Register Now
-          </motion.button>
+          </motion.a>
           </div>
         </div>
       </nav>
@@ -97,6 +100,16 @@ export default function Home() {
           </motion.div>
           <p className="text-3xl mb-1">October 23, 2025</p>
           <p className="text-lg text-white/80">Celonis Office, Munich</p>
+          <motion.a
+            href="https://lu.ma/hackthecase2025"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.06 }}
+            whileTap={{ scale: 0.95 }}
+            className="inline-block mt-6 px-6 py-2 rounded-full border text-white bg-hack-red/30 border-hack-red/50 transition-all duration-300 hover:bg-hack-red/60 hover:shadow-[0_20px_80px_rgba(163,73,73,0.6)] hover:-translate-y-0.5"
+          >
+            Register Now
+          </motion.a>
         </div>
       </section>
 
@@ -112,7 +125,7 @@ export default function Home() {
             {[
               { title: '50+ participants', subtitle: 'Connect with fellow students from Munich. Open to all backgrounds — no coding required (nice to have). Come curious, leave connected.' },
               { title: '2 exciting real business cases', subtitle: 'Tackle real world challenges that combine consulting with tech. Build solutions with guidance from expert mentors and fellow students.' },
-              { title: 'Full‑day of building & exchange', subtitle: 'A fun, hands‑on day to ideate, prototype and share. Get support from industry professionals and student initiatives while you network.' },
+              { title: 'Full‑day of building & exchange', subtitle: 'A fun, hands‑on day to ideate, prototype and share. Get to know industry professionals and student initiatives during the day.' },
             ].map((item) => (
               <motion.div 
                 key={item.title} 
@@ -174,9 +187,9 @@ export default function Home() {
 
             {[
               { time: '10:00', title: 'Welcome, Briefing and Kickoff', desc: 'Check-In, building teams and getting to know the people as well as the cases' },
-              { time: '11:30', title: 'Hack the Case I', desc: 'Start working on the case with your team' },
+              { time: '11:30', title: 'Start building on your idea', desc: 'Start working on the case with your team' },
               { time: '14:30', title: 'Keynote from Celonis', desc: 'What does Celonis do?', keynote: true, logo: './Celonis_Full_Logo_Black_png.webp' },
-              { time: '14:45', title: 'Hack the Case II and prepare your pitch', desc: 'Continue building your solution and create a short slide deck' },
+              { time: '14:45', title: 'Continue building and prepare your pitch', desc: 'Continue building your solution and create a short slide deck' },
               { time: '19:15', title: 'Keynote from Celonis', desc: 'What does Celonis do?', keynote: true, logo: './Celonis_Full_Logo_Black_png.webp' },
               { time: '19:30', title: 'Final Pitches and Prizes', desc: 'Present to the jury, winners announced' },
               { time: '21:00', title: 'Connecting, Snacks and Celebration', desc: 'Networking and celebration' },
