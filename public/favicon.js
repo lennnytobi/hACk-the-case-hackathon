@@ -9,10 +9,10 @@
     
     // Add new favicon links
     const faviconLinks = [
-      '<link rel="icon" type="image/png" sizes="32x32" href="/Logo_weiß.png">',
-      '<link rel="icon" type="image/png" sizes="16x16" href="/Logo_weiß.png">',
-      '<link rel="shortcut icon" href="/favicon.ico">',
-      '<link rel="apple-touch-icon" sizes="180x180" href="/Logo_weiß.png">'
+      '<link rel="icon" type="image/png" sizes="32x32" href="./academy-consult-logo.png">',
+      '<link rel="icon" type="image/png" sizes="16x16" href="./academy-consult-logo.png">',
+      '<link rel="shortcut icon" href="./favicon.ico">',
+      '<link rel="apple-touch-icon" sizes="180x180" href="./academy-consult-logo.png">'
     ];
     
     faviconLinks.forEach(link => {
