@@ -19,7 +19,7 @@ export default function Home() {
           </a>
           
           <div className="flex items-center gap-4 lg:gap-8">
-            <div className="hidden xl:flex gap-8 items-center">
+            <div className="hidden lg:flex gap-8 items-center">
               <a href="#home" className="hover:text-hack-red transition-colors">Home</a>
               <a href="#about" className="hover:text-hack-red transition-colors">What to expect</a>
               <a href="#sponsors" className="hover:text-hack-red transition-colors">Sponsors</a>
