@@ -183,9 +183,9 @@ export default function Home() {
             {[
               { time: '10:00', title: 'Welcome, Briefing and Kickoff', desc: 'Check-In, building teams and getting to know the people as well as the cases' },
               { time: '11:30', title: 'Start building on your idea', desc: 'Start working on the case with your team' },
-              { time: '14:30', title: 'Keynote from Celonis', desc: 'What does Celonis do?', keynote: true, logo: './Celonis_Full_Logo_Black_png.webp' },
+              { time: '14:30', title: 'Keynote from Celonis', desc: 'Keynote', keynote: true, logo: './Celonis_Full_Logo_Black_png.webp' },
               { time: '14:45', title: 'Continue building and prepare your pitch', desc: 'Continue building your solution and create a short slide deck' },
-              { time: '19:15', title: 'Keynote from Celonis', desc: 'What does Celonis do?', keynote: true, logo: './Celonis_Full_Logo_Black_png.webp' },
+              { time: '19:15', title: 'Keynote from Celonis', desc: 'Keynote', keynote: true, logo: './Celonis_Full_Logo_Black_png.webp' },
               { time: '19:30', title: 'Final Pitches and Prizes', desc: 'Present to the jury, winners announced' },
               { time: '21:00', title: 'Connecting, Snacks and Celebration', desc: 'Networking and celebration' },
             ].map((e) => (
