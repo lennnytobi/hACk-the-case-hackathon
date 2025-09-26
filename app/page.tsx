@@ -13,34 +13,30 @@ export default function Home() {
     <main className="min-h-screen bg-hack-black text-white overflow-x-hidden">
       {/* Navigation Bar */}
       <nav className="fixed top-0 w-full z-50 bg-hack-black/80 backdrop-blur-sm">
-        <div className="container mx-auto px-6 py-4 flex items-center">
-          <div className="flex items-center gap-4">
-            <a href="https://academyconsult.de/studierende/" target="_blank" rel="noopener noreferrer" className="hidden lg:block">
-              <img src="./academy-consult-logo.png" alt="Academy Consult" className="h-8 w-auto hover:opacity-80 transition-opacity" />
-            </a>
-            <div className="text-lg sm:text-2xl font-black">
-            h<span className="text-hack-red">AC</span>k the case
-          </div>
-          </div>
-          <div className="ml-auto flex items-center gap-2 sm:gap-4 lg:gap-8">
-            <div className="hidden md:flex gap-8 items-center">
-            <a href="#home" className="hover:text-hack-red transition-colors">Home</a>
-            <a href="#about" className="hover:text-hack-red transition-colors">What to expect</a>
-            <a href="#sponsors" className="hover:text-hack-red transition-colors">Sponsors</a>
-            <a href="#agenda" className="hover:text-hack-red transition-colors">Agenda</a>
-            <a href="#faq" className="hover:text-hack-red transition-colors">FAQ</a>
-            <a href="#organizers" className="hover:text-hack-red transition-colors">Organisers</a>
-          </div>
+        <div className="container mx-auto px-6 py-4 flex items-center justify-between">
+          <a href="https://academyconsult.de/studierende/" target="_blank" rel="noopener noreferrer">
+            <img src="./academy-consult-logo.png" alt="Academy Consult" className="h-8 w-auto hover:opacity-80 transition-opacity" />
+          </a>
+          
+          <div className="flex items-center gap-4 lg:gap-8">
+            <div className="hidden xl:flex gap-8 items-center">
+              <a href="#home" className="hover:text-hack-red transition-colors">Home</a>
+              <a href="#about" className="hover:text-hack-red transition-colors">What to expect</a>
+              <a href="#sponsors" className="hover:text-hack-red transition-colors">Sponsors</a>
+              <a href="#agenda" className="hover:text-hack-red transition-colors">Agenda</a>
+              <a href="#faq" className="hover:text-hack-red transition-colors">FAQ</a>
+              <a href="#organizers" className="hover:text-hack-red transition-colors">Organisers</a>
+            </div>
             <motion.a
               href="https://luma.com/k3fc75dg"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.06 }}
               whileTap={{ scale: 0.95 }}
-              className="px-3 py-1.5 sm:px-4 sm:py-2 lg:px-6 lg:py-2 rounded-full border text-white bg-hack-red/30 border-hack-red/50 transition-all duration-300 hover:bg-hack-red/60 hover:shadow-[0_20px_80px_rgba(163,73,73,0.6)] hover:-translate-y-0.5 text-sm sm:text-sm lg:text-base"
+              className="px-4 py-2 lg:px-6 lg:py-2 rounded-full border text-white bg-hack-red/30 border-hack-red/50 transition-all duration-300 hover:bg-hack-red/60 hover:shadow-[0_20px_80px_rgba(163,73,73,0.6)] hover:-translate-y-0.5 text-sm lg:text-base whitespace-nowrap"
             >
-            Register Now
-          </motion.a>
+              Register Now
+            </motion.a>
           </div>
         </div>
       </nav>
