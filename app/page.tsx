@@ -242,7 +242,7 @@ export default function Home() {
               },
               {
                 q: 'How do I register?',
-                a: 'You can register through Luma using the "Register Now" buttons or directly via this link.'
+                a: 'You can register via Luma using the "Register Now" button or directly via this link: https://luma.com/k3fc75dg'
               },
               {
                 q: 'How much does it cost?',
