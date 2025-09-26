@@ -21,6 +21,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <script src="/favicon.js" defer></script>
+      </head>
       <body>{children}</body>
     </html>
   );
