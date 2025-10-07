@@ -397,7 +397,7 @@ export default function Home() {
                     </svg>
                   </a>
                   <a 
-                    href="https://instagram.com/academyconsult" 
+                    href="https://instagram.com/academy.consult" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-white/60 hover:text-white transition-colors"
