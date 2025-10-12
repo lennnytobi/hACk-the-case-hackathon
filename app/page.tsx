@@ -153,21 +153,27 @@ export default function Home() {
               whileHover={{ scale: 1.01 }}
               whileTap={{ scale: 0.99 }}
             >
-              <img src="./Celonis_Full_Logo_Black_png.webp" alt="Celonis" className="h-24 md:h-28 object-contain max-h-full" />
+              <a href="https://www.celonis.com/" target="_blank" rel="noopener noreferrer" className="h-full w-full flex items-center justify-center">
+                <img src="./Celonis_Full_Logo_Black_png.webp" alt="Celonis" className="h-24 md:h-28 object-contain max-h-full" />
+              </a>
             </motion.div>
             <motion.div 
               className="bg-white/25 backdrop-blur rounded-2xl p-8 border border-white/40 shadow-[0_10px_40px_rgba(255,255,255,0.25)] h-40 flex items-center justify-center hover:bg-white/30 hover:shadow-[0_8px_32px_rgba(255,255,255,0.35)] transition-all duration-300"
               whileHover={{ scale: 1.01 }}
               whileTap={{ scale: 0.99 }}
             >
-              <img src="./corbado-logo.png" alt="Corbado" className="h-16 md:h-20 object-contain max-h-full" />
+              <a href="https://www.corbado.com/" target="_blank" rel="noopener noreferrer" className="h-full w-full flex items-center justify-center">
+                <img src="./corbado-logo.png" alt="Corbado" className="h-16 md:h-20 object-contain max-h-full" />
+              </a>
             </motion.div>
             <motion.div 
               className="bg-white/25 backdrop-blur rounded-2xl p-8 border border-white/40 shadow-[0_10px_40px_rgba(255,255,255,0.25)] h-40 flex items-center justify-center hover:bg-white/30 hover:shadow-[0_8px_32px_rgba(255,255,255,0.35)] transition-all duration-300"
               whileHover={{ scale: 1.01 }}
               whileTap={{ scale: 0.99 }}
             >
-              <img src="./lovable-logo.png" alt="Lovable" className="h-16 md:h-20 object-contain max-h-full" />
+              <a href="https://lovable.dev/" target="_blank" rel="noopener noreferrer" className="h-full w-full flex items-center justify-center">
+                <img src="./lovable-logo.png" alt="Lovable" className="h-16 md:h-20 object-contain max-h-full" />
+              </a>
             </motion.div>
           </div>
         </div>
