@@ -147,13 +147,20 @@ export default function Home() {
             <p className="text-gray-300 text-lg md:text-xl">Our partners supporting the challenge and the event.</p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-stretch max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch max-w-6xl mx-auto">
             <motion.div 
               className="bg-white/25 backdrop-blur rounded-2xl p-8 border border-white/40 shadow-[0_10px_40px_rgba(255,255,255,0.25)] h-40 flex items-center justify-center hover:bg-white/30 hover:shadow-[0_8px_32px_rgba(255,255,255,0.35)] transition-all duration-300"
               whileHover={{ scale: 1.01 }}
               whileTap={{ scale: 0.99 }}
             >
               <img src="./Celonis_Full_Logo_Black_png.webp" alt="Celonis" className="h-24 md:h-28 object-contain max-h-full" />
+            </motion.div>
+            <motion.div 
+              className="bg-white/25 backdrop-blur rounded-2xl p-8 border border-white/40 shadow-[0_10px_40px_rgba(255,255,255,0.25)] h-40 flex items-center justify-center hover:bg-white/30 hover:shadow-[0_8px_32px_rgba(255,255,255,0.35)] transition-all duration-300"
+              whileHover={{ scale: 1.01 }}
+              whileTap={{ scale: 0.99 }}
+            >
+              <img src="./corbado-logo.png" alt="Corbado" className="h-16 md:h-20 object-contain max-h-full" />
             </motion.div>
             <motion.div 
               className="bg-white/25 backdrop-blur rounded-2xl p-8 border border-white/40 shadow-[0_10px_40px_rgba(255,255,255,0.25)] h-40 flex items-center justify-center hover:bg-white/30 hover:shadow-[0_8px_32px_rgba(255,255,255,0.35)] transition-all duration-300"
