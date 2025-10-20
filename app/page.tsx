@@ -147,7 +147,7 @@ export default function Home() {
             <p className="text-gray-300 text-lg md:text-xl">Our partners supporting the challenge and the event.</p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 items-stretch max-w-7xl mx-auto">
             <motion.div 
               className="bg-white/25 backdrop-blur rounded-2xl p-8 border border-white/40 shadow-[0_10px_40px_rgba(255,255,255,0.25)] h-40 flex items-center justify-center hover:bg-white/30 hover:shadow-[0_8px_32px_rgba(255,255,255,0.35)] transition-all duration-300"
               whileHover={{ scale: 1.01 }}
@@ -173,6 +173,15 @@ export default function Home() {
             >
               <a href="https://lovable.dev/" target="_blank" rel="noopener noreferrer" className="h-full w-full flex items-center justify-center">
                 <img src="./lovable-logo.png" alt="Lovable" className="h-16 md:h-20 object-contain max-h-full" />
+              </a>
+            </motion.div>
+            <motion.div 
+              className="bg-white/25 backdrop-blur rounded-2xl p-8 border border-white/40 shadow-[0_10px_40px_rgba(255,255,255,0.25)] h-40 flex items-center justify-center hover:bg-white/30 hover:shadow-[0_8px_32px_rgba(255,255,255,0.35)] transition-all duration-300"
+              whileHover={{ scale: 1.01 }}
+              whileTap={{ scale: 0.99 }}
+            >
+              <a href="https://vestigas.com/" target="_blank" rel="noopener noreferrer" className="h-full w-full flex items-center justify-center">
+                <img src="./vestigas-logo.png" alt="Vestigas" className="h-16 md:h-20 object-contain max-h-full" />
               </a>
             </motion.div>
           </div>
