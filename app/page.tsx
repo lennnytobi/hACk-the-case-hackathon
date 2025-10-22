@@ -199,7 +199,7 @@ export default function Home() {
             <div className="absolute left-0 top-0 bottom-0 w-px bg-white/60" />
 
             {[
-              { time: '10:00', title: 'Welcome, Briefing and Kickoff', desc: 'Check-In, building teams and getting to know the people as well as the cases' },
+              { time: '9:45', title: 'Welcome, Briefing and Kickoff', desc: 'Check-In, building teams and getting to know the people as well as the cases' },
               { time: '11:30', title: 'Start building on your idea', desc: 'Start working on the case with your team' },
               { time: '14:30', title: 'Keynote from Celonis', desc: 'Keynote', keynote: true, logo: './Celonis_Full_Logo_Black_png.webp' },
               { time: '14:45', title: 'Continue building and prepare your pitch', desc: 'Continue building your solution and create a short slide deck' },
